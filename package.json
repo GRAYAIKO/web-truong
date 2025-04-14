@@ -1,0 +1,20 @@
+{
+  "name": "web-truong",
+  "version": "1.0.0",
+  "description": "Giới thiệu Trường THPT Đô Lương 1 website using Node.js and Tailwind CSS",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "build:css": "npx tailwindcss -i ./public/styles/tailwind.css -o ./public/styles/output.css --watch"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0",
+    "tailwindcss": "^3.3.0"
+  },
+  "license": "MIT"
+}
